@@ -15,3 +15,7 @@ You can choose the coloring by 2 filters.
  You can also filter the given nodes by 2 filters.
 You can move the nodes.
 If you double click on a node then that node becomes the main component
+
+- PHP-Laravel:
+
+This is a PHP Laravel project made for university
