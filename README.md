@@ -19,3 +19,7 @@ If you double click on a node then that node becomes the main component
 - PHP-Laravel:
 
 This is a PHP Laravel project made for university
+
+ - Telekommunikációs hálozatok
+
+These are small projects for a lecture called Telekommunikációs hálozatok 
