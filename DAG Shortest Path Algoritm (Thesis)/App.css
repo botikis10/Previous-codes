@@ -1,0 +1,133 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif; /* Use a clean font for better readability */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f4f4f4; /* Light background for a clean look */
+}
+
+/* App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure full viewport height */
+  padding: 20px; /* Add some padding */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #ffffff; /* White background for the main content */
+  border-radius: 8px; /* Slightly rounded corners */
+}
+
+/* Headings */
+h1 {
+  font-size: 28px;
+  margin: 0;
+  text-align: center; /* Center the title */
+  color: #333; /* Dark text for contrast */
+  margin-top: 20px;
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #007bff; /* Primary button color */
+  color: white; /* White text on buttons */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  width: 200px; /* Consistent width for buttons */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.buttonTopology {
+  padding: 10px 15px;
+  margin: 20px 0 10px 0;
+  background-color: #007bff; /* Primary button color */
+  color: white; /* White text on buttons */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */ 
+  width: 450px; /* Consistent width for buttons */
+}
+
+.buttonTopology:hover {
+  background-color: #0056b3;/* Darker shade on hover */
+}
+
+/* Input and select styles */
+input, select {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  width: 250px; /* Consistent width for inputs */
+}
+
+/* Textarea styles */
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Full width */
+  resize: none; /* Disable resizing */
+}
+
+/* Graph visualization */
+.graph-container {
+  border: 1px solid #ccc; /* Light border for the graph */
+  border-radius: 5px; /* Rounded corners */
+  width: 500px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  margin-top: 20px; /* Space above the graph */
+  position: relative; /* Position relative for SVG elements */
+  background-color: #ffffff; /* White background for graph */
+}
+
+/* Result sections */
+.results {
+  margin-top: 20px; /* Space above results */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e9ecef; /* Light gray background for results */
+  width: 100%; /* Full width */
+}
+
+/* Table styles */
+.table {
+  width: 40%; /* Full width of the parent container */
+  border-collapse: collapse; /* Collapse borders for a cleaner look */
+  margin-top: 20px; /* Space above the table */
+  border: 2px solid #000000; /* Add a blue border around the table */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Ensure the border radius is applied correctly */
+}
+
+.table th, .table td {
+  border: 1px solid #ccc; /* Light gray border for table cells */
+  padding: 10px; /* Padding inside cells for better spacing */
+  text-align: center; /* Align text to the left */
+  overflow: hidden; /* Hide overflow text */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.table th {
+  background-color: #007bff; /* Blue background for table headers */
+  color: white; /* White text for headers */
+  font-weight: bold; /* Bold text for headers */
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+.table tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
