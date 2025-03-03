@@ -23,3 +23,7 @@ This is a PHP Laravel project made for university
  - Telekommunikációs hálozatok
 
 These are small projects for a lecture called Telekommunikációs hálozatok 
+
+ - DAG Shortest Path Algoritm (Thesis)
+
+This was my university thesis. I developed a simple program in React that allows users to input graph data and returns the shortest paths.
